@@ -169,7 +169,6 @@ function initQuiz(blockIdx) {
     const saved = userAnswers[currentIndex];
     if (saved === null) {
         container.style.pointerEvents = 'none';
-        container.style.opacity = '0.6'; 
         setTimeout(() => {
             container.style.pointerEvents = 'auto';
             container.style.opacity = '1';
